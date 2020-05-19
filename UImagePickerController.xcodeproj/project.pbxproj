@@ -14,6 +14,7 @@
 		5280891D24740C2700769F27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280891C24740C2700769F27 /* Preview Assets.xcassets */; };
 		5280892024740C2700769F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5280891E24740C2700769F27 /* LaunchScreen.storyboard */; };
 		5280892824740C4200769F27 /* MyImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280892724740C4200769F27 /* MyImagePicker.swift */; };
+		5280892A2474100F00769F27 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528089292474100F00769F27 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5280891F24740C2700769F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5280892124740C2700769F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5280892724740C4200769F27 /* MyImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePicker.swift; sourceTree = "<group>"; };
+		528089292474100F00769F27 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5280892124740C2700769F27 /* Info.plist */,
 				5280891B24740C2700769F27 /* Preview Content */,
 				5280892724740C4200769F27 /* MyImagePicker.swift */,
+				528089292474100F00769F27 /* Coordinator.swift */,
 			);
 			path = UImagePickerController;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				5280891424740C2600769F27 /* AppDelegate.swift in Sources */,
 				5280892824740C4200769F27 /* MyImagePicker.swift in Sources */,
+				5280892A2474100F00769F27 /* Coordinator.swift in Sources */,
 				5280891624740C2600769F27 /* SceneDelegate.swift in Sources */,
 				5280891824740C2600769F27 /* ContentView.swift in Sources */,
 			);
